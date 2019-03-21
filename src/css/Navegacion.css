@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(236, 232, 232);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none !important;
+  border: 1px lightblue solid;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background-color: azure;
+}
+
+nav a:hover {
+  border: 1px azure solid;
+  background-color: lightblue;
+}
+
+nav a.active {
+  border: 1px azure solid;
+  background-color: lightblue;
+}
+

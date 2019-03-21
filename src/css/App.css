@@ -1,0 +1,12 @@
+.App {
+  background: linear-gradient(-15deg, azure, lightgray);
+  height: 100vh;
+}
+
+
+.bordeado {
+  border-radius: 8px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
